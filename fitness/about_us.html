@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 
 <!--
-	This website template was created by: James Sheppard (2025)
+	Website template was created by: James Sheppard (2025)
+	Page made by: Michael Bui (2025)
+	Modifications made by: James Sheppard (2025)
 -->
 
 <html lang="en">
@@ -11,8 +13,9 @@
 	<title>Forward Fitness Club</title>
 	<meta charset="utf-8">
 
-	<link rel="stylesheet" href="css\index.css" />
-	<script src="scripts\index.js"></script>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/navlink.css">
+	<script src="scripts/index.js"></script>
 
 </head>
 
@@ -20,30 +23,34 @@
 
 	<div class="container">
 
-
 		<header>
-            <!--Made it so the logo goes to the home page--->
-			<a href="index.html" style="text-decoration:none">
-                <img id="logo" alt="Logo that says: 'Gain more with us. Forward Fitness Club. Best Traditions'  " src="images\forward-fitness-logo.png" />
+
+            <!-- (Michael) Made it so the logo goes to the home page -->
+			<a href="index.html" style="text-decoration: none;">
+                <img alt="Logo that says: 'Gain more with us. Forward Fitness Club. Best Traditions' " src="images/forward-fitness-logo.png">
             </a>
-			    <h1 id="headerTitle" >Forward Fitness Club</h1>
+			<h1>Forward Fitness Club</h1>
 
 		</header>
 
-
-
 		<nav>
 
-			<p><a href="index.html">Home</a> &nbsp; | &nbsp; <a href ="about_us.html">About Us</a> &nbsp; | &nbsp; Classes &nbsp; | &nbsp; Nutrition &nbsp; | &nbsp; <a href ="contact_us.html">Contact Us</a></p>
+			<a class="navigationLink" href="index.html">Home</a>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<a class="navigationLink" href="about_us.html">About Us</a>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<p class="navigationLink">Classes</p>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<p class="navigationLink">Nutrition</p>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<a class="navigationLink" href="contact_us.html">Contact Us</a>
 
 		</nav>
 
-
-
 		<main>
-            <div id ="weights">
-                <h1>Weights</h1>
-                <img src="images/people-with-weights.jpg" alt ="Two people working out with a weight in each hand" height="300" width="450"/>
+            <div id="weights">
+                <h2>Weights</h2>
+                <img src="images/people-with-weights.jpg" alt ="Two people working out with a weight in each hand">
                 <p>Our facility includes a weight training area with several weight options. Build lean muscle with weights and improve your
                 core with weight training.</p>
 
@@ -52,14 +59,14 @@
                     <li>Kettle bells</li>
                     <li>Barbells</li>
                 </ul>
-
             </div>
 
-            <div id = "cardio">
-                <h1>Cardio</h1>
-                <img class="equip" src="images/people-workingout-machines.jpg" alt="Cardio Equipment" height="300" width="450">
-                <p> Burn fat through cardio workouts. Experts recommend 150 minutes of cardio each week. We have several equipment choices
+            <div id="cardio">
+                <h2>Cardio</h2>
+                <img src="images/people-workingout-machines.jpg" alt="Cardio Equipment">
+                <p>Burn fat through cardio workouts. Experts recommend 150 minutes of cardio each week. We have several equipment choices
                 for your workout.</p>
+
                 <ul>
                     <li>Treadmills</li>
                     <li>Elliptical Machines</li>
@@ -67,11 +74,12 @@
                 </ul>
             </div>
 
-            <div id = "training">
-                <h1>Personal Trainer</h1>
-                <img class= "equip" src="images/personal-trainer.jpg" alt="Personal Training" height="300" width="450">
-                <p> Our certified personal trainers work with you to help you obtain your fitness goals and track your progress. Personal
+            <div id="training">
+                <h2>Personal Trainer</h2>
+                <img src="images/personal-trainer.jpg" alt="Personal Training">
+                <p>Our certified personal trainers work with you to help you obtain your fitness goals and track your progress. Personal
                 training has many benefits.</p>
+
                 <ul>
                     <li>Accountability</li>
                     <li>Personalized Program</li>
@@ -101,10 +109,8 @@
 
 		<footer>
 
-
-
-			<p><b>&copy; Copyright 2021. All Rights Reserved.</b></p>
-			<p><b>forwardfitness@club.net</b></p>
+			<p>&copy; Copyright 2021. All Rights Reserved.</p>
+			<a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a>
 
 		</footer>
 

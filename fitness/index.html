@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 
 <!--
-	This website template was created by: James Sheppard (2025)
+	Website template was created by: James Sheppard (2025)
+	Page made by: James Sheppard (2025)
+	Modifications made by: Michael Bui (2025)
 -->
 
 <html lang="en">
@@ -11,57 +13,45 @@
 	<title>Forward Fitness Club</title>
 	<meta charset="utf-8">
 
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/navlink.css">
 	<link rel="stylesheet" href="css/index.css">
+
 	<script src="scripts/index.js"></script>
 
 </head>
 
-<body>	
+<body>
 
 	<div class="container">
 
-		<!--
-		Header is placeholder for title/logo
-		-->
-
 		<header>
 
-			<!--Made it so the logo goes to the home page--->
-			<a href="index.html" style="text-decoration:none">
-                <img id="logo" alt="Logo that says: 'Gain more with us. Forward Fitness Club. Best Traditions'  " src="images\forward-fitness-logo.png" />
-            </a>
-			    <h1 id="headerTitle" >Forward Fitness Club</h1>
+			<!-- (Michael) Made it so the logo goes to the home page -->
+			<a href="index.html" style="text-decoration: none;">
+				<img alt="Logo that says: 'Gain more with us. Forward Fitness Club. Best Traditions' " src="images/forward-fitness-logo.png">
+			</a>
+			<h1>Forward Fitness Club</h1>
 
 		</header>
 
-		<!--
-			Nav (short for navigation) is the placeholder for the links to different pages
-		-->
-
 		<nav>
 
-			<p><a href="index.html">Home</a> &nbsp; | &nbsp; <a href ="about_us.html">About Us</a> &nbsp; | &nbsp; Classes &nbsp; | &nbsp; Nutrition &nbsp; | &nbsp; <a href ="contact_us.html">Contact Us</a></p>
+			<a class="navigationLink" href="index.html">Home</a>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<a class="navigationLink" href="about_us.html">About Us</a>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<p class="navigationLink">Classes</p>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<p class="navigationLink">Nutrition</p>
+			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
+			<a class="navigationLink" href="contact_us.html">Contact Us</a>
 
-			
-			<!--
-			<p class="navigationLink" >Home</p>
-			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
-			<p class="navigationLink" >About Us</p>
-			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
-			<p class="navigationLink" >Classes</p>
-			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
-			<p class="navigationLink" >Nutrition</p>
-			<p>&nbsp;&nbsp; | &nbsp;&nbsp;</p>
-			<p class="navigationLink" >Contact Us</p>
--->
 		</nav>
 
-		<!--
-			Main is the placeholder for the "meat" of our website. This is where all the boys and girls come together to watch people FIGHT...
-			Jk. It's just for the main text of the website. A.K.A. "What we want our consumers' first impressions to be of us."
-		-->
-
 		<main>
+
+			<!-- This slideshow scrolls through images -->
 
 			<div id="maskSlideshow">
 				<img alt="Two people doing lunges with weights." src="images/people-with-weights.jpg">
@@ -69,9 +59,10 @@
 				<img alt="Fit man with a clipboard." src="images/personal-trainer.jpg">
 			</div>
 
+			<h2>Welcome to Forward Fitness Club.</h2>
 
 			<p>
-				Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and
+				Our mission is to help our clients meet their fitness and
 				nutrition goals.
 			</p>
 
@@ -92,7 +83,7 @@
 					convenient group training classes, and nutrition tips and information to keep you healthy.
 				</p>
 
-				<img style="border: 5px solid #e6e7e8; min-width: 25%; min-height: 25%;" alt="Multiple people using workout machines." src="images/people-workingout-machines.jpg">
+				<img alt="Multiple people using workout machines." src="images/people-workingout-machines.jpg">
 
 			</div>
 
@@ -107,25 +98,17 @@
 				<br>
 
 				This one-week trial gives you complete access to our equipment,
-				training classes, and nutrition planning. Contact us today to Start Your Free Trial!
+				training classes, and nutrition planning.
 			</p>
+
+			<h2><a class="navigationLink" href="contact_us.html">Contact us</a> today to Start Your Free Trial!</h2>
 
 		</main>
 
-		<!--
-			Footer! You know "The Foot" from Teenage Mutant Ninja Turtles? Well these have nothing to do with them.
-			The footer is place where we put the boring stuff like copyright info and contact info. (some websites forget this for some reason even though it's really useful)
-		-->
-
 		<footer>
 
-			<!--
-				Debating on changing the "2021" to "2025"
-				... The urge is very strong.
-			-->
-
-			<p><b>&copy; Copyright 2021. All Rights Reserved.</b></p>
-			<p><b>forwardfitness@club.net</b></p>
+			<p>&copy; Copyright 2021. All Rights Reserved.</p>
+			<a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a>
 
 		</footer>
 
