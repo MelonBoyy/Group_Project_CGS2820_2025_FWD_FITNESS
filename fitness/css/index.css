@@ -35,10 +35,27 @@ header
 
 nav
 {
+	display: flex;
 	justify-content: center;
+	align-items: center;
+
+	max-height: 7.1rem;
 
 	text-align: center;
 	font-size: clamp(24px, 36px, 36px);
+
+	margin: 0 auto;
+}
+
+.navigationLink
+{
+	font-size: clamp(30px, 30px, 40px);
+	transition: font-size ease-in-out 0.25s;
+}
+
+.navigationLink:hover
+{
+	font-size: clamp(40px, 40px, 50px);
 }
 
 main
