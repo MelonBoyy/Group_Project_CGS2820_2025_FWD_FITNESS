@@ -3,15 +3,13 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-left: 15%;
-	padding-right: 15%;
 }
 
 .container {
 	background-color: white;
 	align-items: center;
 	justify-content: center;
-	margin: 0 auto;
+	width: 65%;
 	padding: 50px;
 }
 
