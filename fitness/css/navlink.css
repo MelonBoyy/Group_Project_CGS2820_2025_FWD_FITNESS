@@ -1,3 +1,5 @@
+/* CSS written by: James Sheppard (2025) */
+/* Style rules for the navigation element */
 nav {
 	display: flex;
 	justify-content: center;
@@ -8,11 +10,22 @@ nav {
 	margin: 0 auto;
 }
 
-.navigationLink {
-	font-size: clamp(30px, 30px, 40px);
-	transition: font-size ease-in-out 0.25s;
+nav p {
+	font-weight: lighter;
 }
 
-.navigationLink:hover {
+nav a {
+	color: black;
+	font-style: normal;
+	font-size: clamp(30px, 30px, 40px);
+	font-weight: lighter;
+	text-decoration: underline;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+	transition: ease-in-out 0.25s;
+}
+
+nav a:hover {
 	font-size: clamp(40px, 40px, 50px);
+	font-weight: normal;
 }

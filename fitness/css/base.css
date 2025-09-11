@@ -1,3 +1,40 @@
+/* CSS written by: James Sheppard (2025) */
+/* Anchor style rules */
+a {
+	color: black;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+/* Text style rules */
+h1, h2, h3, h4 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* List style rules */
+ul {
+	list-style-position: inside;
+}
+
+ul li {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+dl dt {
+	font-size: clamp(30px, 30px, 40px);
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+dl dd {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Body style rules */
 body {
 	background-color: #e6e7e8;
 	display: flex;
@@ -5,7 +42,7 @@ body {
 	justify-content: center;
 }
 
-.container {
+body .container {
 	background-color: white;
 	align-items: center;
 	justify-content: center;
@@ -13,14 +50,26 @@ body {
 	padding: 50px;
 }
 
+/* Header style rules */
 header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
-	font-size: clamp(48px, 96px, 48px);
 }
 
+header #title {
+	font-size: clamp(4em, 5em, 5em);
+	text-align: center;
+	font-style: normal;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header #logo {
+	max-width: 105%;
+	max-height: 105%;
+}
+
+/* Main style rules */
 main {
 	align-items: center;
 	justify-content: center;
@@ -34,22 +83,12 @@ main img {
 	min-height: 25%;
 }
 
+/* Footer style rules */
 footer {
 	background-color: #e6e7e8;
 
 	text-align: center;
-	padding: 10px;
+	padding: 1%;
 
-	font-weight: bold;
-}
-
-ul
-{
-	list-style-position: inside;
-}
-
-dt
-{
-	font-size: clamp(30px, 30px, 40px);
 	font-weight: bold;
 }
