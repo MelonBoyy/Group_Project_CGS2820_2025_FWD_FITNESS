@@ -1,4 +1,11 @@
 /* CSS written by: James Sheppard (2025) */
+/* CSS Reset */
+body, header, nav, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 /* Anchor style rules */
 a {
 	color: black;
