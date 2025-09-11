@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	font-family: 'Times New Roman', Times, serif
 }
 
 /* List style rules */
@@ -28,17 +28,17 @@ ul {
 }
 
 ul li {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	font-family: 'Times New Roman', Times, serif
 }
 
 dl dt {
 	font-size: clamp(30px, 30px, 40px);
 	font-weight: bold;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	font-family: 'Times New Roman', Times, serif
 }
 
 dl dd {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	font-family: 'Times New Roman', Times, serif
 }
 
 /* Body style rules */
