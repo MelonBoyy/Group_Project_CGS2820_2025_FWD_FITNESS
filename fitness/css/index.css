@@ -58,3 +58,10 @@
 		left: -200%;
 	}
 }
+
+/* Style rule for hero image */
+main #heroImage {
+	margin-left: -3rem;
+	margin-right: -3rem;
+	max-width: 80.5rem;
+}
